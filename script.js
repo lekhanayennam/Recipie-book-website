@@ -3,7 +3,6 @@ const defaultRecipes = [
   {
     name: "Pizza 🍕",
     country: "Italy",
-    image: "https://images.unsplash.com/photo-1548365328-40b91a97c6f7",
     ingredients: [
       "2 cups all-purpose flour",
       "1 cup water",
@@ -26,7 +25,6 @@ const defaultRecipes = [
   {
     name: "Sushi 🍣",
     country: "Japan",
-    image: "https://images.unsplash.com/photo-1562158076-5f3a408af3a9",
     ingredients: [
       "Sushi rice",
       "Nori sheets",
@@ -48,7 +46,6 @@ const defaultRecipes = [
   {
     name: "Tacos 🌮",
     country: "Mexico",
-    image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
     ingredients: [
       "Corn tortillas",
       "Grilled meat or beans",
@@ -70,7 +67,6 @@ const defaultRecipes = [
   {
     name: "Paella 🥘",
     country: "Spain",
-    image: "https://images.unsplash.com/photo-1543352634-3f19c80ec0b4",
     ingredients: [
       "Bomba rice",
       "Saffron threads",
@@ -92,7 +88,6 @@ const defaultRecipes = [
   {
     name: "Croissant 🥐",
     country: "France",
-    image: "https://images.unsplash.com/photo-1542831371-d531d36971e6",
     ingredients: [
       "Flour",
       "Butter",
@@ -113,7 +108,6 @@ const defaultRecipes = [
   {
     name: "Butter Chicken 🍛",
     country: "India",
-    image: "https://images.unsplash.com/photo-1604908177521-d2a9789610d5",
     ingredients: [
       "Chicken",
       "Butter",
@@ -134,7 +128,6 @@ const defaultRecipes = [
   {
     name: "Poutine 🍟",
     country: "Canada",
-    image: "https://images.unsplash.com/photo-1609336732201-197a036ef6e1",
     ingredients: [
       "French fries",
       "Cheese curds",
@@ -152,7 +145,6 @@ const defaultRecipes = [
   {
     name: "Falafel 🧆",
     country: "Middle East",
-    image: "https://images.unsplash.com/photo-1563805042-7684e3f2b3e8",
     ingredients: [
       "Chickpeas",
       "Onion",
@@ -172,7 +164,6 @@ const defaultRecipes = [
   {
     name: "Feijoada 🥘",
     country: "Brazil",
-    image: "https://images.unsplash.com/photo-1603062694955-0bc13fba1937",
     ingredients: [
       "Black beans",
       "Pork",
@@ -193,7 +184,6 @@ const defaultRecipes = [
   {
     name: "Tom Yum Soup 🍲",
     country: "Thailand",
-    image: "https://images.unsplash.com/photo-1562967916-eb82221dfb34",
     ingredients: [
       "Shrimp",
       "Lemongrass",
@@ -210,6 +200,26 @@ const defaultRecipes = [
     ],
     tips: "Use fresh herbs for authentic flavor."
   }
+  {
+    name: "J's Oreo Mug Cake 🎂",
+    country: "Indo-American",
+    ingredients: [
+      "Oreos (Important)",
+      "Milk",
+      "Vanilla essence",
+      "Coffee powder",
+      "Sugar (optional)",
+    ],
+    steps: [
+      "Crush some oreos.",
+      "Pour some milk in it.",
+      "Wish them until you get a batter like consistency.",
+      "Add sugar if nessasary.",
+      "Combine the mixture with two drops of vanilla essence and a pinch of coffee powder.",
+      "Transfer it into an Oven proof mug and bake."
+    ],
+    tips: "Optionally top it with crushed oreos for extra crunch."
+  },
 ];
 
 // Load user recipes from localStorage
