@@ -260,4 +260,3 @@ function showRecipe(index) {
 
 // Initial rendering
 renderButtons();
-
