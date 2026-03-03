@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Add Your Recipe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Add Your Recipe</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="add.html" class="active">Add Your Recipe</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <form id="recipe-form">
+        <input type="text" id="rname" placeholder="Dish Name" required />
+        <input type="text" id="rcountry" placeholder="Country of Origin" required />
+        <textarea id="ringredients" placeholder="Ingredients (comma separated)" required></textarea>
+        <textarea id="rsteps" placeholder="Steps (comma separated)" required></textarea>
+        <textarea id="rtips" placeholder="Tips (optional)"></textarea>
+        <button type="submit">Add Recipe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 World Recipes</p>
+  </footer>
+
+  <script src="add.js"></script>
+</body>
+</html>
