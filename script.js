@@ -199,7 +199,7 @@ const defaultRecipes = [
       "Serve hot with fresh herbs."
     ],
     tips: "Use fresh herbs for authentic flavor."
-  }
+  },
   {
     name: "J's Oreo Mug Cake 🎂",
     country: "Indo-American",
@@ -260,3 +260,4 @@ function showRecipe(index) {
 
 // Initial rendering
 renderButtons();
+
